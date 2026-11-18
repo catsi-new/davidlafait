@@ -168,7 +168,7 @@ window.__ADDITIONAL_CARDS__ = [
   },
   {
     "id": "mobilite-proposition",
-    "theme": "ecologie",
+    "theme": "energie-mobilite",
     "status": "proposition",
     "statusText": "PROPOSITION",
     "title": "Décarboner sans imposer une seule technologie",
