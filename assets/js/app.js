@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   /* Données : assets/js/data.js, généré par build.py à partir de site.json. */
-  const CARD_REVISION = "20261117-thematiques-v2";
+  const CARD_REVISION = "20261120-apropos";
   const main = document.querySelector("main");
   const statusNode = document.getElementById("announcement");
   const SITE = window.__SITE__;
@@ -38,7 +38,7 @@
   }
   function renderCollection() {
     let selected="all";
-    main.innerHTML=`<a class="back" href="#/">← Retour aux thématiques</a><div class="page-heading"><p class="eyebrow">La collection</p><h1 class="page-title">Les cartes à partager</h1><p>${cards.length} cartes, classées par thématique. Les réalisations, les actions en cours et les propositions restent distinctes.</p></div>${legend()}<div class="section-head"><div class="filters" role="group" aria-label="Filtrer par statut">${[["all","Toutes"],["realise","Réalisé"],["en-cours","En cours"],["proposition","Proposition"]].map(([id,label])=>`<button type="button" class="filter" data-filter="${id}" aria-pressed="${id==="all"}">${label}</button>`).join("")}</div>${search("Rechercher une carte…")}</div><div class="cards-grid"></div><a class="back back-bottom" href="#/">← Retour aux thématiques</a>`;
+    main.innerHTML=`<a class="back" href="#/">← Retour aux thématiques</a><div class="page-heading"><p class="eyebrow">La collection</p><h1 class="page-title">Les cartes à partager</h1><p>${cards.length} cartes, classées par thématique. Les réalisations, les actions en cours et les propositions restent distinctes.</p></div><div class="section-head"><div class="filters status-filters" role="group" aria-label="Filtrer par statut">${[["all","Toutes"],["realise","RÉALISÉ"],["en-cours","EN COURS"],["proposition","PROPOSITION"]].map(([id,label])=>`<button type="button" class="filter${id==="all"?"":" st "+id}" data-filter="${id}" aria-pressed="${id==="all"}">${label} <span class="count">· ${id==="all"?cards.length:cards.filter(c=>c.status===id).length}</span></button>`).join("")}<span class="legend-caption">Un fait établi, une étape en cours ou une mesure envisagée.</span></div>${search("Rechercher une carte…")}</div><div class="cards-grid"></div><a class="back back-bottom" href="#/">← Retour aux thématiques</a>`;
     const render = () => {
       const q=normalize(main.querySelector("input").value);
       const list=cards.filter(c=>(selected==="all"||c.status===selected)&&cardSearch(c).includes(q));
@@ -46,14 +46,14 @@
       statusNode.textContent=`${list.length} carte${list.length>1?"s":""}`;
     };
     main.querySelectorAll("[data-filter]").forEach(button=>button.addEventListener("click",()=>{
-      selected=button.dataset.filter;
-      main.querySelectorAll("[data-filter]").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));
+      selected=(button.dataset.filter!=="all"&&selected===button.dataset.filter)?"all":button.dataset.filter;
+      main.querySelectorAll("[data-filter]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.filter===selected)));
       render();
     }));
     listenSearch(render);render();
   }
   function renderAbout() {
-    main.innerHTML=`<a class="back" href="#/">← Retour aux thématiques</a><article class="prose"><p class="eyebrow">Notre démarche</p><h1 class="page-title">Des faits, des propositions.<br>Et de quoi les vérifier.</h1><section><h2>Un site indépendant</h2><p>« David l’a fait » est une initiative indépendante, non officielle et non affiliée à Nouvelle Énergie. Ce site rassemble des cartes illustrées sur des actions locales, des travaux parlementaires et des propositions nationales, avec des liens vers les documents qui permettent de les examiner.</p><p>Le nom ne signifie pas que toutes les mesures présentées ont été réalisées : la pastille précise toujours leur statut.</p></section><section><h2>Trois statuts, sans confusion</h2><ul><li><span class="badge realise">RÉALISÉ</span> Où, quand et ce qui a effectivement été mis en place.</li><li><span class="badge en-cours">EN COURS</span> L’étape atteinte et ce qui reste à réaliser.</li><li><span class="badge proposition">PROPOSITION</span> La mesure envisagée, son périmètre et sa source.</li></ul><p>Une réalisation locale ne prouve pas à elle seule les effets d’une proposition nationale. Les effets possibles sont formulés au conditionnel ; les chiffres de capacité, les objectifs et les résultats mesurés ne sont pas confondus.</p></section><section><h2>Une image pour raconter, une source pour vérifier</h2><p>Les illustrations sont non documentaires : elles ne représentent pas des scènes photographiées et ne constituent pas des preuves visuelles. Les cartes proposent une synthèse ; chaque lien « Voir la source » donne accès à l’unique document cité sur la carte.</p></section><section><h2>Une démarche par thématique</h2><p>Chaque thématique réunit des réalisations cannoises, des actions en cours et des propositions nationales, reliées par un fil conducteur. Chaque carte cite sa source. Le site s’enrichira au fil des thématiques.</p><p><a href="#/">Parcourir les thématiques ↗</a></p></section></article>`;
+    main.innerHTML=`<a class="back" href="#/">← Retour aux thématiques</a><article class="prose"><p class="eyebrow">Notre démarche</p><h1 class="page-title">Des faits, des propositions.<br>Et de quoi les vérifier.</h1><section><h2>Un site indépendant</h2><p>« David l’a fait » est une initiative indépendante, non officielle et non affiliée à Nouvelle Énergie. Ce site rassemble des cartes illustrées sur des actions locales, des travaux parlementaires et des propositions nationales, avec des liens vers les documents qui permettent de les examiner.</p><p>Le nom ne signifie pas que toutes les mesures présentées ont été réalisées : la pastille précise toujours leur statut.</p></section><section><h2>Trois statuts, sans confusion</h2><ul class="statuts"><li><span class="badge realise">RÉALISÉ</span> Où, quand et ce qui a effectivement été mis en place.</li><li><span class="badge en-cours">EN COURS</span> L’étape atteinte et ce qui reste à réaliser.</li><li><span class="badge proposition">PROPOSITION</span> La mesure envisagée, son périmètre et sa source.</li></ul><p>Une réalisation locale ne prouve pas à elle seule les effets d’une proposition nationale. Les effets possibles sont formulés au conditionnel ; les chiffres de capacité, les objectifs et les résultats mesurés ne sont pas confondus.</p></section><section><h2>Une image pour raconter, une source pour vérifier</h2><p>Les illustrations sont non documentaires : elles ne représentent pas des scènes photographiées et ne constituent pas des preuves visuelles. Les cartes proposent une synthèse ; chaque lien « Voir la source » donne accès à l’unique document cité sur la carte.</p></section><section><h2>Une démarche par thématique</h2><p>Chaque thématique réunit des réalisations cannoises, des actions en cours et des propositions nationales, reliées par un fil conducteur. Chaque carte cite sa source. Le site s’enrichira au fil des thématiques.</p><p><a href="#/">Parcourir les thématiques ↗</a></p></section></article>`;
   }
   function route() {
     let path;

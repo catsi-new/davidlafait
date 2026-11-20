@@ -48,6 +48,18 @@ window.__SITE__ = {
    "name": "Protection des femmes & Lutte contre les violences",
    "image": "assets/img/themes/protection-femmes.webp",
    "fil": "La protection des femmes victimes de violences exige des réponses concrètes et immédiates. À Cannes, la Villa Baltz offre un refuge sécurisé sous 72 heures pour sortir de l’emprise. À l’échelle nationale, la création de pôles judiciaires spécialisés et le durcissement des sanctions protègent durablement les victimes."
+  },
+  {
+   "slug": "sante-acces-soins",
+   "name": "Santé, accès aux soins et innovation",
+   "image": "assets/img/themes/sante-acces-soins.webp",
+   "fil": "Se soigner ne doit jamais être un parcours du combattant. À Cannes, la mutuelle communale, la prévention en santé mentale dès l’enfance et l’équipement citoyen en défibrillateurs protègent chaque génération au quotidien. À l’échelle nationale, inciter les médecins à s’installer dans les déserts médicaux, accélérer l’accès aux innovations et bâtir un « Airbus » européen du médicament mettront fin aux pénuries et aux délais d’attente."
+  },
+  {
+   "slug": "innovation-spatial-souverainete",
+   "name": "Innovation, spatial et souveraineté",
+   "image": "assets/img/themes/innovation-spatial-souverainete.webp",
+   "fil": "La souveraineté d’un pays se joue dans sa capacité à former ses jeunes et à ouvrir les métiers d’avenir à tous les talents. À Cannes, le Campus du spatial, de l’IA et du quantique — marrainé par Candace Johnson — et la chaire universitaire « Défis et souveraineté du spatial » réunissent étudiants, chercheurs et industriels pour préparer les compétences de demain. À l’échelle nationale, alléger les normes, concentrer l’effort sur l’IA, le quantique et le spatial, et ouvrir davantage les filières d’ingénieurs aux jeunes, et notamment aux jeunes femmes, renforceront l’excellence et l’indépendance de la France."
   }
  ],
  "cards": [
@@ -740,10 +752,190 @@ window.__SITE__ = {
     "url": "https://www.unenouvelleenergie.fr/vive-letat-libere-de-letatisme-david-lisnard-face-a-edouard-philippe-lors-du-debat-organise-par-florence-portelli/"
    },
    "file": "david-la-fait-fiche-dossier-numerique-victime"
+  },
+  {
+   "id": "defibrillateurs-citoyens-sauveteurs",
+   "theme": "sante-acces-soins",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Santé, accès aux soins et innovation · Cannes",
+   "title": "180 défibrillateurs dans l’espace public",
+   "body": "À Cannes, 180 défibrillateurs équipent l’espace public, et la Mairie forme les habitants aux gestes qui sauvent.",
+   "impact": "Agir dès les premières minutes d’un arrêt cardiaque, avant même l’arrivée des secours.",
+   "source": {
+    "name": "Cannes Soleil · juin 2024",
+    "url": "https://www.cannes.com/_resource/Documents/Mairie/Espace%20com/Cannesoleil/Archives%20Cannesoleil/Cannesoleil%20-%20Ann%C3%A9e%202024/N%C2%B0249%20-%20Juin%202024.pdf"
+   },
+   "file": "david-la-fait-fiche-defibrillateurs-citoyens-sauveteurs"
+  },
+  {
+   "id": "mutuelle-communale",
+   "theme": "sante-acces-soins",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Santé, accès aux soins et innovation · Cannes",
+   "title": "Une mutuelle ouverte à tous les Cannois",
+   "body": "À Cannes, la Mairie a négocié une mutuelle avec téléconsultation gratuite, ouverte à tous et sans examen médical.",
+   "impact": "Faciliter l’accès à une couverture santé et à un médecin à distance, quels que soient l’âge, les revenus ou la situation familiale.",
+   "source": {
+    "name": "Cannes Soleil · novembre 2024",
+    "url": "https://www.cannes.com/_resource/Documents/Mairie/Espace%20com/Cannesoleil/Archives%20Cannesoleil/Cannesoleil%20-%20Ann%C3%A9e%202024/N%C2%B0253%20-%20Novembre%202024.pdf"
+   },
+   "file": "david-la-fait-fiche-mutuelle-communale"
+  },
+  {
+   "id": "prevention-sante-mentale",
+   "theme": "sante-acces-soins",
+   "status": "en-cours",
+   "statusText": "EN COURS",
+   "tag": "Santé, accès aux soins et innovation · Cannes",
+   "title": "Prendre soin de la santé mentale dès l’enfance",
+   "body": "Depuis 2023, le Conseil local de santé mentale de Cannes mène un plan de prévention avec quatre associations.",
+   "impact": "Agir tôt auprès des enfants et des jeunes, libérer la parole et faire connaître les aides locales.",
+   "source": {
+    "name": "Cannes Soleil · avril 2025",
+    "url": "https://www.cannes.com/_resource/Documents/Mairie/Espace%20com/Cannesoleil/Archives%20Cannesoleil/Cannesoleil%20-%20Ann%C3%A9e%202025/N%C2%B0258%20-%20Avril%202025.pdf"
+   },
+   "file": "david-la-fait-fiche-prevention-sante-mentale"
+  },
+  {
+   "id": "conventionnement-differencie",
+   "theme": "sante-acces-soins",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Santé, accès aux soins et innovation · France",
+   "title": "Mieux rembourser là où les médecins manquent",
+   "body": "David Lisnard propose que la Sécurité sociale rembourse mieux les actes là où les soignants manquent.",
+   "impact": "Cette incitation attirera des médecins et spécialistes dans les zones sous-dotées, pour éviter le renoncement aux soins.",
+   "source": {
+    "name": "Nouvelle Énergie · Projet santé",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
+   },
+   "file": "david-la-fait-fiche-conventionnement-differencie"
+  },
+  {
+   "id": "airbus-du-medicament",
+   "theme": "sante-acces-soins",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Santé, accès aux soins et innovation · France",
+   "title": "Un « Airbus » européen du médicament",
+   "body": "David Lisnard propose un consortium européen du médicament pour mutualiser les achats et relocaliser la production.",
+   "impact": "Cette alliance réduira la dépendance sanitaire de l’Europe et limitera les pénuries de médicaments au quotidien.",
+   "source": {
+    "name": "Nouvelle Énergie · Projet santé",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
+   },
+   "file": "david-la-fait-fiche-airbus-du-medicament"
+  },
+  {
+   "id": "acces-medicaments",
+   "theme": "sante-acces-soins",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Santé, accès aux soins et innovation · France",
+   "title": "Accélérer l’accès aux nouveaux médicaments",
+   "body": "David Lisnard propose d’alléger les démarches après l’autorisation européenne pour accélérer l’accès aux nouveaux médicaments en France.",
+   "impact": "Réduire l’attente des patients, sans abaisser les exigences de sécurité.",
+   "source": {
+    "name": "Nouvelle Énergie · Entretien JDNews",
+    "url": "https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/"
+   },
+   "file": "david-la-fait-fiche-acces-medicaments"
+  },
+  {
+   "id": "innovation-medicale",
+   "theme": "sante-acces-soins",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Santé, accès aux soins et innovation · France",
+   "title": "Innover plus vite pour mieux soigner",
+   "body": "David Lisnard propose de simplifier l’accès à la télésurveillance, à l’IA diagnostique et à la robotique chirurgicale, dans un cadre sécurisé.",
+   "impact": "Faciliter l’accès aux progrès médicaux, sans renoncer à la sécurité des patients.",
+   "source": {
+    "name": "Nouvelle Énergie · Projet santé",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
+   },
+   "file": "david-la-fait-fiche-innovation-medicale"
+  },
+  {
+   "id": "campus-spatial-ia-quantique",
+   "theme": "innovation-spatial-souverainete",
+   "status": "en-cours",
+   "statusText": "EN COURS",
+   "tag": "Innovation, spatial et souveraineté · Cannes",
+   "title": "Un campus du spatial, de l’IA et du quantique à Cannes",
+   "body": "À Cannes, un campus marrainé par Candace Johnson réunira étudiants, chercheurs et industriels du spatial.",
+   "impact": "Transmettre les savoirs, développer les compétences de demain et accélérer l’innovation sur le bassin cannois.",
+   "source": {
+    "name": "Nice-Matin · Économie",
+    "url": "https://www.nicematin.com/economie/des-formations-adaptees-aux-metiers-d-avenir-et-aux-besoins-des-entreprises-le-premier-campus-du-spatial-de-l-ia-et-de-la-quantique-ouvrira-a-cannes-courant-2027-10763918"
+   },
+   "file": "david-la-fait-fiche-campus-spatial-ia-quantique"
+  },
+  {
+   "id": "chaire-defis-souverainete-spatial",
+   "theme": "innovation-spatial-souverainete",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Innovation, spatial et souveraineté · Cap Azur",
+   "title": "Une chaire « Défis et souveraineté du spatial »",
+   "body": "Signature de la convention créant une chaire universitaire entre collectivités azuréennes, universités et industriels.",
+   "impact": "Relier directement la recherche académique aux besoins stratégiques de la filière spatiale.",
+   "source": {
+    "name": "Convention de lancement · Cannes · novembre 2026",
+    "url": "https://x.com/davidlisnard/status/2123477019199676904"
+   },
+   "file": "david-la-fait-fiche-chaire-defis-souverainete-spatial"
+  },
+  {
+   "id": "liberer-recherche-normes",
+   "theme": "innovation-spatial-souverainete",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Innovation, spatial et souveraineté · France",
+   "title": "Libérer la recherche et l’innovation des normes",
+   "body": "David Lisnard propose d’alléger les normes pour libérer la créativité et rapprocher recherche, université et industrie.",
+   "impact": "Cette mesure accélérera le passage de la recherche fondamentale aux applications industrielles.",
+   "source": {
+    "name": "Nouvelle Énergie · Programme",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
+   },
+   "file": "david-la-fait-fiche-liberer-recherche-normes"
+  },
+  {
+   "id": "souverainete-technologies-rupture",
+   "theme": "innovation-spatial-souverainete",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Innovation, spatial et souveraineté · France",
+   "title": "Bâtir notre souveraineté dans les technologies de rupture",
+   "body": "David Lisnard propose de concentrer l’effort public sur quelques domaines décisifs : l’IA, le quantique et le spatial.",
+   "impact": "Cette stratégie renforcera l’indépendance industrielle et technologique de la France face à la concurrence mondiale.",
+   "source": {
+    "name": "Le Diplomate · Grand Entretien",
+    "url": "https://lediplomate.media/exclusif-grand-entretien-david-lisnard-strategie-france-dans-nouveau-desordre-mondial/"
+   },
+   "file": "david-la-fait-fiche-souverainete-technologies-rupture"
+  },
+  {
+   "id": "former-ingenieures",
+   "theme": "innovation-spatial-souverainete",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Innovation, spatial et souveraineté · France",
+   "title": "Former plus d’ingénieurs, et plus d’ingénieures",
+   "body": "David Lisnard propose de rendre les formations d’ingénieurs plus attractives, notamment pour les jeunes filles.",
+   "impact": "Cette mesure aidera à combler le manque d’ingénieurs dont ont besoin les entreprises et la recherche.",
+   "source": {
+    "name": "Le JDD · Tribune",
+    "url": "https://www.lejdd.fr/economie/un-sursaut-francais-est-necessaire-contre-la-penurie-dingenieurs-144409"
+   },
+   "file": "david-la-fait-fiche-former-ingenieures"
   }
  ],
  "site": {
-  "url": "https://davidlafait.vercel.app/",
+  "url": "https://www.davidlafait.fr/",
   "adhesion": "https://soutenir.unenouvelleenergie.fr/p/HSQY26M9"
  }
 };

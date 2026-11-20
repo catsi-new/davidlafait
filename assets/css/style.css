@@ -140,3 +140,16 @@ h2,.page-title,.footer-brand,.detail-copy h1{letter-spacing:0;font-weight:900}
 .tile-label{font-family:Amp,var(--font-body);font-size:var(--text-base);line-height:1.2}
 .fil{font-size:var(--text-sm)}
 @media(max-width:1000px){.tile-label{font-size:var(--text-sm)}}
+/* Légende fusionnée avec les filtres */
+.filters.status-filters{align-items:center;margin-block:var(--s6)}
+.filter.st{display:inline-flex;align-items:center;gap:var(--s2);font-weight:700;font-size:var(--text-xs);letter-spacing:.02em;border:2px solid transparent;background:var(--sage);color:var(--sage-ink)}
+.filter.st::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.filter.st.en-cours{background:var(--ochre);color:var(--ochre-ink)}
+.filter.st.proposition{background:var(--violet);color:var(--violet-ink)}
+.filter.st[aria-pressed=true]{border-color:currentColor;box-shadow:0 0 0 2px var(--cream) inset}
+.filter.st:hover{border-color:currentColor}
+.filter.st:disabled{opacity:.45;cursor:default}
+.filter .count{font-weight:400;opacity:.8}
+.filters .legend-caption{font-size:var(--text-xs)}
+@media (hover:hover) and (pointer:fine){.card-visual img{cursor:pointer}}
+.prose ul.statuts{list-style:none;padding-left:0}

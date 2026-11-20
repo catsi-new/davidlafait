@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://davidlafait.vercel.app/</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/instruction.html</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/sport-pratique-libre.html</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/sport-sante-prevention.html</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/sport-jeunesse-excellence.html</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/ecologie.html</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/energie-mobilite.html</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/securite-civisme.html</loc></url>
-  <url><loc>https://davidlafait.vercel.app/thematiques/protection-femmes.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/instruction.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/sport-pratique-libre.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/sport-sante-prevention.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/sport-jeunesse-excellence.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/ecologie.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/energie-mobilite.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/securite-civisme.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/protection-femmes.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/sante-acces-soins.html</loc></url>
+  <url><loc>https://www.davidlafait.fr/thematiques/innovation-spatial-souverainete.html</loc></url>
 </urlset>
