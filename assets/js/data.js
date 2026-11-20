@@ -163,8 +163,8 @@ window.__SITE__ = {
    "body": "Des aires de fitness, des parcours de santé et des city-stades gratuits permettent de pratiquer en plein air à Cannes.",
    "impact": "Des équipements gratuits pour pratiquer au quotidien et gagner en autonomie dans l’espace public.",
    "source": {
-    "name": "Ville de Cannes · Sport en plein air",
-    "url": "https://cannes.com/fr/index/cannes-capitale-du-sport-en-plein-air.html"
+    "name": "Cap Public · Sport en plein air",
+    "url": "https://x.com/cappublic2027/status/2099024552391057767"
    },
    "file": "david-la-fait-fiche-sport-plein-air-quartiers"
   },
@@ -859,21 +859,6 @@ window.__SITE__ = {
    "file": "david-la-fait-fiche-innovation-medicale"
   },
   {
-   "id": "campus-spatial-ia-quantique",
-   "theme": "innovation-spatial-souverainete",
-   "status": "en-cours",
-   "statusText": "EN COURS",
-   "tag": "Innovation, spatial et souveraineté · Cannes",
-   "title": "Un campus du spatial, de l’IA et du quantique à Cannes",
-   "body": "À Cannes, un campus marrainé par Candace Johnson réunira étudiants, chercheurs et industriels du spatial.",
-   "impact": "Transmettre les savoirs, développer les compétences de demain et accélérer l’innovation sur le bassin cannois.",
-   "source": {
-    "name": "Nice-Matin · Économie",
-    "url": "https://www.nicematin.com/economie/des-formations-adaptees-aux-metiers-d-avenir-et-aux-besoins-des-entreprises-le-premier-campus-du-spatial-de-l-ia-et-de-la-quantique-ouvrira-a-cannes-courant-2027-10763918"
-   },
-   "file": "david-la-fait-fiche-campus-spatial-ia-quantique"
-  },
-  {
    "id": "chaire-defis-souverainete-spatial",
    "theme": "innovation-spatial-souverainete",
    "status": "realise",
@@ -887,6 +872,21 @@ window.__SITE__ = {
     "url": "https://x.com/davidlisnard/status/2123477019199676904"
    },
    "file": "david-la-fait-fiche-chaire-defis-souverainete-spatial"
+  },
+  {
+   "id": "campus-spatial-ia-quantique",
+   "theme": "innovation-spatial-souverainete",
+   "status": "en-cours",
+   "statusText": "EN COURS",
+   "tag": "Innovation, spatial et souveraineté · Cannes",
+   "title": "Un campus du spatial, de l’IA et du quantique à Cannes",
+   "body": "À Cannes, un campus marrainé par Candace Johnson réunira étudiants, chercheurs et industriels du spatial.",
+   "impact": "Transmettre les savoirs, développer les compétences de demain et accélérer l’innovation sur le bassin cannois.",
+   "source": {
+    "name": "Nice-Matin · Économie",
+    "url": "https://www.nicematin.com/economie/des-formations-adaptees-aux-metiers-d-avenir-et-aux-besoins-des-entreprises-le-premier-campus-du-spatial-de-l-ia-et-de-la-quantique-ouvrira-a-cannes-courant-2027-10763918"
+   },
+   "file": "david-la-fait-fiche-campus-spatial-ia-quantique"
   },
   {
    "id": "liberer-recherche-normes",
