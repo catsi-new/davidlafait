@@ -964,8 +964,8 @@ window.__SITE__ = {
    "body": "À La Frayère, la Gaming House de l’insertion accompagne les 16–25 ans vers une formation ou un emploi depuis septembre 2025.",
    "impact": "Partir d’un centre d’intérêt pour identifier des compétences.",
    "source": {
-    "name": "Cannes Pays de Lérins · La Frayère",
-    "url": "https://cannespaysdelerins.fr/index.php/nouvelle-frayere/"
+    "name": "Mission locale · Lab’expression",
+    "url": "https://ml-cannespaysdelerins.org/labexpression"
    },
    "file": "david-la-fait-fiche-gaming-insertion"
   },
