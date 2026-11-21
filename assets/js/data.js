@@ -664,6 +664,21 @@ window.__SITE__ = {
    "file": "david-la-fait-fiche-bocca-centre-securite"
   },
   {
+   "id": "securite-harcelement-scolaire",
+   "theme": "securite-civisme",
+   "status": "en-cours",
+   "statusText": "EN COURS",
+   "tag": "CE QU’IL PROPOSE · Sécurité et protection des élèves · France",
+   "title": "Garantir une enquête à chaque signalement de harcèlement",
+   "body": "Alexandra Martin dépose une proposition de loi créant un droit à l’enquête administrative et des actes judiciaires obligatoires.",
+   "impact": "Protéger les 700 000 élèves victimes chaque année afin qu’aucun enfant qui parle ne soit réduit au silence ni traité en coupable.",
+   "source": {
+    "name": "Proposition de loi d’Alexandra Martin (Assemblée nationale)",
+    "url": "https://x.com/MartinAlex06/status/2123705810903519496"
+   },
+   "file": "securite-harcelement-scolaire"
+  },
+  {
    "id": "responsabilite-degradations-proposition",
    "theme": "securite-civisme",
    "status": "proposition",
