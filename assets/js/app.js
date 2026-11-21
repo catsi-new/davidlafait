@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   /* Données : assets/js/data.js, généré par build.py à partir de site.json. */
-  const CARD_REVISION = "20261120-apropos";
+  const CARD_REVISION = "20261121-logo";
   const main = document.querySelector("main");
   const statusNode = document.getElementById("announcement");
   const SITE = window.__SITE__;
