@@ -60,6 +60,12 @@ window.__SITE__ = {
    "name": "Innovation, spatial et souveraineté",
    "image": "assets/img/themes/innovation-spatial-souverainete.webp",
    "fil": "La souveraineté d’un pays se joue dans sa capacité à former ses jeunes et à ouvrir les métiers d’avenir à tous les talents. À Cannes, le Campus du spatial, de l’IA et du quantique — marrainé par Candace Johnson — et la chaire universitaire « Défis et souveraineté du spatial » réunissent étudiants, chercheurs et industriels pour préparer les compétences de demain. À l’échelle nationale, alléger les normes, concentrer l’effort sur l’IA, le quantique et le spatial, et ouvrir davantage les filières d’ingénieurs aux jeunes, et notamment aux jeunes femmes, renforceront l’excellence et l’indépendance de la France."
+  },
+  {
+   "slug": "premier-pas-vie-active",
+   "name": "Premier pas dans la vie active",
+   "image": "assets/img/themes/premier-pas-vie-active.webp",
+   "fil": "Trouver sa place dans la vie active ne commence pas toujours par un entretien d’embauche. Renouer le contact, identifier ses compétences, construire un projet puis accéder à une formation ou à une expérience professionnelle : ces dispositifs répondent à différentes étapes du parcours, notamment pour les jeunes éloignés de l’emploi."
   }
  ],
  "cards": [
@@ -947,6 +953,111 @@ window.__SITE__ = {
     "url": "https://www.lejdd.fr/economie/un-sursaut-francais-est-necessaire-contre-la-penurie-dingenieurs-144409"
    },
    "file": "david-la-fait-fiche-former-ingenieures"
+  },
+  {
+   "id": "gaming-insertion",
+   "theme": "premier-pas-vie-active",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Premier pas dans la vie active · Cannes La Bocca",
+   "title": "Du jeu vidéo à un projet professionnel",
+   "body": "À La Frayère, la Gaming House de l’insertion accompagne les 16–25 ans vers une formation ou un emploi depuis septembre 2025.",
+   "impact": "Partir d’un centre d’intérêt pour identifier des compétences.",
+   "source": {
+    "name": "Cannes Pays de Lérins · La Frayère",
+    "url": "https://cannespaysdelerins.fr/index.php/nouvelle-frayere/"
+   },
+   "file": "david-la-fait-fiche-gaming-insertion"
+  },
+  {
+   "id": "bourse-permis",
+   "theme": "premier-pas-vie-active",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Premier pas dans la vie active · Cannes",
+   "title": "Un coup de pouce pour le permis, contre un engagement utile",
+   "body": "À Cannes, les 17-25 ans peuvent recevoir jusqu’à 900 € pour leur permis, en échange de 70 heures d’intérêt général.",
+   "impact": "Depuis 2015, 149 jeunes ont gagné en mobilité pour accéder plus facilement à une formation ou à un emploi.",
+   "source": {
+    "name": "Nouvelle Énergie · Bourse au permis",
+    "url": "https://www.unenouvelleenergie.fr/bourse-au-permis-un-soutien-precieux-pour-les-jeunes-cannois/"
+   },
+   "file": "david-la-fait-fiche-bourse-permis"
+  },
+  {
+   "id": "mission-locale-emploi",
+   "theme": "premier-pas-vie-active",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Premier pas dans la vie active · Cannes Pays de Lérins",
+   "title": "Un accompagnement qui débouche sur l’emploi",
+   "body": "En 2024, la Mission locale Cannes Pays de Lérins a accompagné 1 786 jeunes, dont 375 entrés en emploi.",
+   "impact": "Transformer un projet professionnel en premières expériences concrètes.",
+   "source": {
+    "name": "Mission locale · rapport 2024",
+    "url": "https://www.calameo.com/books/007975680d7f0e76871e0"
+   },
+   "file": "david-la-fait-fiche-mission-locale-emploi"
+  },
+  {
+   "id": "jobs-ete",
+   "theme": "premier-pas-vie-active",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Premier pas dans la vie active · Cannes",
+   "title": "Un salon pour décrocher son premier job d’été",
+   "body": "À Cannes, le salon 1 000 jobs d’été réunit jeunes et recruteurs, avec des entretiens d’embauche sur place.",
+   "impact": "En 2026, 1 037 visiteurs ont pu rencontrer les employeurs de 37 stands en une seule journée.",
+   "source": {
+    "name": "Cannes Soleil · mai 2026",
+    "url": "https://www.cannes.com/fr/index/cannes-soleil/grands-articles/n-270-mai-2026/jobs-d-ete-la-mairie-de-cannes-mobilisee-pour-l-emploi-des-jeunes.html"
+   },
+   "file": "david-la-fait-fiche-jobs-ete"
+  },
+  {
+   "id": "clauses-insertion",
+   "theme": "premier-pas-vie-active",
+   "status": "realise",
+   "statusText": "RÉALISÉ",
+   "tag": "Premier pas dans la vie active · Cannes Lérins",
+   "title": "La commande publique, une porte vers l’emploi",
+   "body": "En 2020, les clauses sociales des marchés publics de Cannes Lérins ont permis 75 000 heures de travail d’insertion.",
+   "impact": "Retrouver une expérience professionnelle grâce aux travaux utiles au territoire.",
+   "source": {
+    "name": "Cannes Pays de Lérins · insertion",
+    "url": "https://cannespaysdelerins.fr/index.php/insertion-professionnelle/"
+   },
+   "file": "david-la-fait-fiche-clauses-insertion"
+  },
+  {
+   "id": "charges-patronales-negatives",
+   "theme": "premier-pas-vie-active",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Premier pas dans la vie active · France",
+   "title": "Aider les entreprises à embaucher après le RSA",
+   "body": "David Lisnard propose des charges patronales négatives pour l’embauche de personnes au RSA depuis plus de deux ans.",
+   "impact": "Au lieu de payer des charges, l’employeur sera aidé pour redonner sa chance à une personne éloignée de l’emploi.",
+   "source": {
+    "name": "Nouvelle Énergie · Réussir une nouvelle ambition française",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
+   },
+   "file": "david-la-fait-fiche-charges-patronales-negatives"
+  },
+  {
+   "id": "ecart-500-euros",
+   "theme": "premier-pas-vie-active",
+   "status": "proposition",
+   "statusText": "PROPOSITION",
+   "tag": "CE QU’IL PROPOSE · Premier pas dans la vie active · France",
+   "title": "Que le travail rapporte toujours plus que l’assistance",
+   "body": "David Lisnard propose une allocation sociale unique, avec au moins 500 € d’écart entre travailler et ne pas travailler.",
+   "impact": "Cet écart rendra la reprise d’un emploi à temps plein plus intéressante que le maintien dans les aides.",
+   "source": {
+    "name": "Le Crayon · YouTube · 11 octobre 2026 (26:45)",
+    "url": "https://www.youtube.com/watch?v=SdILU6uwqTs&t=1605s"
+   },
+   "file": "david-la-fait-fiche-ecart-500-euros"
   }
  ],
  "site": {
