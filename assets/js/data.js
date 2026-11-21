@@ -688,7 +688,7 @@ window.__SITE__ = {
    "body": "Faire supporter le coût des dégradations à leurs auteurs, plutôt que d’en laisser la facture aux contribuables.",
    "impact": "Préserver l’argent public pour les écoles, les services et le cadre de vie.",
    "source": {
-    "name": "BFMTV · Entretien de David Lisnard",
+    "name": "BFMTV · Entretien de David Lisnard · 13 octobre 2026",
     "url": "https://www.bfmtv.com/politique/video-revoir-l-excuse-de-minorite-david-lisnard-candidat-nouvelle-energie-a-la-presidentielle-souhaite-que-les-jeunes-casseurs-fassent-des-travaux-d-interet-general_VN-202610130267.html"
    },
    "file": "david-la-fait-fiche-qui-casse-doit-payer"
